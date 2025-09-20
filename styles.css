@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>HTML basics Demo</Title>
+        <style>
+            p {
+                color: green;
+            }
+               table,
+               th,
+               td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 1em;
+                margin: 1em;
+               }
+            .header{
+                display: flex;
+                background-color: darkgreen;
+                color: white;
+
+                padding: 0 0 0 0.5vw;
+                gap: 1vw;
+                justify-content: center;
+                flex-wrap: wrap;
+
+            }
+            .item1 {
+                flex: 0 0 auto;
+                width: fit-content;
+
+            }
+
+            .item2 {
+                flex: 0 0 auto;
+            }
+        </style>
+        <link
+        rel="stylesheet"
+        href="style.css">
+    </head>
+
+    <body>
+         <div class="header">
+              <!--<h1 style="color:blue; text-align: center">Welcome to <span id="highlight">HTML</span></h1> -->
+              <div class="item1">
+                <h1>HTML</h1>
+              </div>
+              <div class="item2">
+                <h1>CSS</h1>
+              </div>
+         </div>
+        
+        <p> The concepts covered under this tutorial include:</p>
+        <ul>
+            <li>Introduction to HTML</li>
+            <li>HTML Elements and Tags</li>
+        </ul>
+
+        <p>This is a paragraph element. <b> HTML </b> uses tags to <i> mark up </i> content.</p>
+        <img
+
+
+body a {
+    color:black;
+    text-decoration: none;
+}
+.header{
+    background-color: darkgreen;
+}
+#highlight {
+    color:black;
+}
